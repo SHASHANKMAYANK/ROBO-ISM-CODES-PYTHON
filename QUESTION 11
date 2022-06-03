@@ -1,0 +1,11 @@
+x=str(input("Enter the string you want to \n"))
+count=0
+for i in range (0,len(x),1):
+    if(count>len(x)/2):
+        print("String is palindrome")
+        break
+    elif (x[i]==x[len(x)-1-i]):
+        count+=1
+        continue
+    else:
+        print("String is not palindrome")

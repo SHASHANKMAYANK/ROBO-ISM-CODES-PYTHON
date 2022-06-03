@@ -1,0 +1,13 @@
+x=str(input("Enter the string which you want to sort"))
+lst=[]
+lst2=[]
+for i in x:
+    lst.append(i)
+for i in lst:
+    ascii=ord(i)
+    lst2.append(ascii)
+lst2.sort()
+str=""
+for i in lst2:
+    str=str+chr(i)
+print(str)

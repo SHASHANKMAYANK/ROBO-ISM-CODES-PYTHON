@@ -1,0 +1,17 @@
+import random
+lst=[]
+lst1=[]
+for i in range(0,100,1):
+  lst.append(random.randint(1,99))
+for i in lst:
+    if lst.count(i)>1:
+        lst1.append(i)
+lst1.sort()
+min=0
+for i in lst1:
+    if i>min:
+        min=i
+        print(i)
+        
+print("These are the elements which repeat in the list")
+        

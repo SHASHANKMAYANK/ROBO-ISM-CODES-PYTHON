@@ -1,0 +1,10 @@
+string=str(input("Enter any string you want\n"))
+
+lst=[]
+sum=0
+for i in string:
+    lst.append(i)
+for i in lst:
+    if(i.isnumeric()==True):
+        sum=sum+int(i)
+print("The sum of the integers in the given string is\n",sum)

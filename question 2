@@ -1,0 +1,18 @@
+def credit_card(creditcardnumber):
+    lst=[]
+    lst2=[]
+    for i in creditcardnumber:
+        lst.append(i)
+    for i in range(0,12,1):
+        lst2.append("*")
+    for i in range(12,16,1):
+        lst2.append(lst[i])
+
+    str=""
+    for i in lst2:
+        str+=i
+    print(str)
+creditcard_number=str(input("Enter your creditcard number"))
+credit_card(creditcard_number)
+
+

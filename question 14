@@ -1,0 +1,17 @@
+print("Enter the numbers whose gcd you want to find")
+x=int(input())
+y=int(input())
+lst=[]
+gcd=0
+if (x<y):
+    for i in range(1,x+1,1):
+        if (x%i==0 and y%i==0):
+
+            lst.append(i)
+elif (x>y):
+    for i in range(1,y+1,1):
+        if (x%i==0 and y%i==0  ):
+
+            lst.append(i)
+print("GCD of both numbers is",lst[-1])
+

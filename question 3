@@ -1,0 +1,13 @@
+def operation(a,operator,b):
+    if (operator=="+"):
+        print(a+b)
+    elif (operator=="-"):
+        print(a-b)
+    elif (operator=="/"):
+        print(a/b)
+    elif (operator=="."):
+        print(a*b)
+x=int(input("Enter the number 1"))
+y=int(input("Enter the number 2"))
+operator=str(input("Enter the operator +,-,/,."))
+operation(x,operator,y)

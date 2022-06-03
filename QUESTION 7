@@ -1,0 +1,13 @@
+list=[]
+x=int(input("Enter the number of elements you want to enter in list\n"))
+for i in range(0,x,1):
+    list.append(int(input("Enter the elements in  the list\t")))
+list.sort()
+max=0
+for i in range(0,x,1):
+    if(max<list.count(i)):
+        max=list.count(i)
+for i in range(0,x,1):
+    if (max==list.count(i)):
+        print("Element",i,"occurs",list.count(i),"times")
+

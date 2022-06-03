@@ -1,0 +1,14 @@
+x=str(input("Enter the string\n"))
+alphabet=0
+number=0
+specialchar=0
+for i in x:
+ if(i.isnumeric()==True):
+    number+=1
+ elif(i.isalpha()==True):
+    alphabet+=1
+ else:
+    specialchar+=1
+print("Number of alphabets=",alphabet)
+print("Number of numbers=",number)
+print("Number of special characters=",specialchar)

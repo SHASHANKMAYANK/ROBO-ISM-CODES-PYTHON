@@ -1,0 +1,9 @@
+x=input("Enter the string you want to double\n")
+lst=[]
+for i in x:
+    lst.append(i)
+
+str=""
+for i in lst:
+    str=str+(2*i)
+print(str)

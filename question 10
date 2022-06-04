@@ -1,0 +1,7 @@
+x=int(input("Enter number 1"))
+y=int(input("Enter number 2"))
+print("Before Swapping\nNumber 1= ",x,"\nNumber 2= ",y)
+x=x^y
+y=x^y
+x=x^y
+print("After Swapping\nNumber 1= ",x,"\nNumber 2= ",y)
